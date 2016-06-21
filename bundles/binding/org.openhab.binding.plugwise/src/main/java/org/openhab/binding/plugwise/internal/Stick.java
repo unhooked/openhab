@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2010-2016, openHAB.org and others.
+ * Copyright (c) 2010-2016 by the respective copyright holders.
  *
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
@@ -816,7 +816,7 @@ public class Stick extends PlugwiseDevice implements SerialPortEventListener {
             JobDataMap dataMap = context.getJobDetail().getJobDataMap();
             Stick theStick = (Stick) dataMap.get("Stick");
 
-            // logger.debug("SendJobListener: SJobListeren reschedule a job");
+            // logger.debug("SendJobListener: SJobListener reschedule a job");
 
             Scheduler sched = null;
             try {
